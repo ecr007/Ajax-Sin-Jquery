@@ -9,6 +9,8 @@ Http.open("GET", url);
 Http.send();
 
 Http.onreadystatechange=(e)=>{
+
+	// this.status == 200
 	console.log(Http.responseText)
 }
 ```
